@@ -1,0 +1,471 @@
+@charset "UTF-8";
+
+/* 한글/300-SUIT-Regular */
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 영문/600-Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+/* 시작구간 */
+.wrap {
+    width: 100%;
+    /* height: 100vw; */
+    /* background-color: #FFF; */
+}
+
+.main_visual {
+    width: 100%;
+    position: relative;
+}
+.portfolio_00 {
+    width: 100%;
+    margin: auto 0;
+    text-align: center;
+    position: relative;
+}
+
+.portfolio_00 img {
+    width: 100%;
+    border: none;
+    vertical-align: top;
+}
+/* 인트로 문구 */
+.txtArea {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 12vw;
+    transform: translateY(-50%);
+    padding: 0 5%;
+    animation: fadeInUp 4s ease-in-out ;
+    animation-iteration-count: infinite;
+}
+
+.txtArea .slogan {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 4vw;
+    line-height: 75px;
+    color: #fe6b0c;
+    position: relative;
+    word-break: keep-all;
+}
+
+.tit1 {
+    font-family: 'SUIT-Regular';
+    font-weight: 500;
+    font-size: 1.2vw;
+    color: #fff;
+    margin-top: 50px;
+    position: relative;
+    word-break: keep-all;
+    transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+    opacity: 1;
+    padding: 2% 0;
+}
+
+/* 카테고리 제목 */
+.f0 {
+    font-size: 22px;
+    color: #333;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    line-height: 60px;
+}
+
+/* 설명 */
+.f1 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 300;
+    font-family: 'SUIT-Regular';
+    color: #666;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+/* 설명 */
+.f2 {
+    width: 120px;
+    font-size: 12px;
+    color: #333;
+    font-weight: 300;
+    font-family: 'SUIT-Regular';
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    line-height: 40px;
+}
+
+.f2 a {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    font-family: 'SUIT-Regular';
+}
+
+a.bt {
+    display: block;
+    border-top: 4px solid #333;
+    padding-top: 5px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.f3 {
+    width: 200px;
+    height: 120px;
+    font-size: 12px;
+    color: #333;
+    font-weight: bold;
+    font-family: 'SUIT-Regular';
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    line-height: 40px;
+}
+
+/* 날짜 기입 */
+.f3 span {
+    font-size: 15px;
+    line-height: 30px;
+    color: #666;
+    font-weight: 300;
+    font-family: 'SUIT-Regular';
+
+}
+.portfolio_01 {
+    padding: 10% 0% 0% 10%;
+    height: auto;
+
+}
+.portfolio_01_inner {
+    width: 100%;
+    padding: 0% 20% 0 10%;
+    margin: auto 0;
+    position: relative;
+}
+.portfolio_01_inner p {
+    font-size: 22px;
+    color: #333;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+/* C.바디_브랜드네이밍 */
+.portfolio_02_inner {
+    width: 100%;
+}
+
+.portfolio_02 {
+    width: 100%;
+    margin: auto 0;
+    text-align: center;
+    position: relative;
+}
+
+.portfolio_02 img {
+    width: 100%;
+    border: none;
+    vertical-align: top;
+}
+
+/* C.바디_메인페이지 */
+.portfolio_03 {
+    width: 100%;
+    margin: auto 0;
+    text-align: center;
+    position: relative;
+}
+
+.portfolio_03 img {
+    width: 100%;
+    border: none;
+    vertical-align: top;
+}
+
+/* C.바디_메인_전략_페이지 */
+.portfolio_04 {
+    width: 100%;
+    margin: auto 0;
+    text-align: center;
+    position: relative;
+}
+
+.portfolio_04 img {
+    width: 100%;
+    border: none;
+    vertical-align: top;
+}
+/* C.바디_메인_전략_페이지 */
+.portfolio_05 {
+    width: 100%;
+    margin: auto 0;
+    text-align: center;
+    position: relative;
+}
+.portfolio_05 img {
+    width: 100%;
+    border: none;
+    vertical-align: top;
+}
+.portfolio_06 {
+    width: 100%;
+    margin: auto 0;
+    text-align: center;
+    position: relative;
+}
+.portfolio_06 img {
+    width: 100%;
+    border: none;
+    vertical-align: top;
+}
+
+/* 푸터 */
+/* .footer {
+    padding: 100px 0 105px;
+    background: #fff;
+    z-index: 3;
+} */
+.footer {
+    padding: 20px 0 160px;
+    background: #efefef;
+    z-index: 3;
+}
+.footer .inner {
+    width: 1220px;
+    padding: 80px 0 0px;
+}
+.inner {
+    position: relative;
+    margin: 0 auto;
+    width: 1120px;
+}
+/* 왼쪽 푸터 */
+.footer .inner .left {
+    float: left;
+    width: calc(100% - 735px);
+    width: -webkit-calc(100% - 735px);
+    font-family: 'Noto Sans KR';
+    font-weight: 900;
+    font-size: 40px;
+    color: #222;
+}
+/* 왼쪽 푸터 */
+.footer .inner .left span{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 40px;
+    color: #353535;
+}
+/* 오른쪽 푸터 */
+.footer .inner .right {
+    float: left;
+    width: 735px;
+
+}
+.footer .inner .right .info {
+    overflow: hidden;
+    font-size: 15px;
+    color: #666;
+    font-family: 'Montserrat-Light';
+    font-weight: 300;
+}
+
+
+/* Tel*/
+.footer .inner .right .info p:first-child {
+    margin-left: 0;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 15px;
+    display: block;
+}
+/* Contacts AS*/
+.footer .inner .right .info p:first-child a{
+    color: #fe6b0c;
+}
+/* E-mail 전체 박스*/
+.footer .inner .right .info p {
+    float: left;
+    margin-left: 75px;
+    line-height: 1.1;
+}
+/* E-mail 박스*/
+.footer .inner .right .info .infoR {
+    margin-top: 0;
+}
+/* E-mail */
+.footer .inner .right .info span {
+    font-family: 'Montserrat';
+    color: #666;
+    font-weight: 900;
+    display: inline-block;
+    margin-right: 4px;
+
+}   
+ /* Jeongwoo Choi */
+ .footer .inner .right .addR span{
+    font-family: 'Montserrat';
+    color: #666;
+    font-weight: 900;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+ /* Jeongwoo Choi */
+.footer .inner .right .addR {
+    margin-top: 15px;
+    font-size: 13px;
+    color: #666;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    word-break: keep-all;
+    float: left;
+    line-height: 1.1;
+}
+/* Copyright */
+.footer .inner .right .copyR {
+    margin-top: 15px;
+    font-size: 13px;
+    color: #666;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    float: left;
+    margin-left: 25px;
+    line-height: 1.1;
+}
+
+
+
+/* 푸터만, 1240 이하 */
+@media (max-width:1240px){
+    .footer {
+        padding: 20px 0 160px;
+        background: #efefef;
+        z-index: 3;
+    }
+    .footer .inner {
+        width: auto;
+        /* padding: 0 3%; */
+        padding: 5%;
+    }
+    .footer .inner .left {
+        width: 340px;
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .footer .inner .left {
+        width: 340px;
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .footer .inner .left {
+        width: 340px;
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .footer .inner .left span {
+        display: block;
+    }
+    .footer .inner .left span {
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-size: 32px;
+        color: #353535;
+        margin-bottom: 20px;
+    }
+
+
+}
+
+
+
+/* 푸터만, 981 이하 */
+@media (max-width:981px){
+    .footer {
+        padding: 85px 0 110px;
+    }
+    .footer .inner {
+        width: auto;
+        padding: 0 3%;
+    }
+    .footer .inner .left {
+        width: auto;
+        float: none;
+    }
+    .footer .inner .right {
+        width: auto;
+        float: none;
+        margin-top: 40px;
+    }
+    .footer .inner .right .info {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .footer .inner .right .addR {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .footer .inner .right .copyR {
+        line-height: 20px;
+    }
+}
+
+
+/* 푸터만, 320 이하 */
+@media (max-width:320px){
+    /* 여기 */
+    .footer .inner .right .info p {
+        float: left;
+        margin-left: 0;
+        line-height: 1.1;
+    }
+    .footer .inner .right .copyR {
+        margin-top: 15px;
+        font-size: 13px;
+        color: #666;
+        font-family: 'Montserrat';
+        font-weight: 300;
+        float: left;
+        margin-left: 0;
+        line-height: 1.1;
+    }
+    .footer .inner .right .addR {
+        font-size: 13px;
+        color: #666;
+        font-family: 'Montserrat';
+        font-weight: 300;
+        word-break: keep-all;
+        float: left;
+        line-height: 1.1;
+    }
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        /* transform: translateY(500px); */
+        transform: matrix(1, 0, 0, 1, 0, 26);
+      
+    }
+    to {
+        opacity: 1;
+        /* transform: translateY(50px); */
+        transform: matrix(1, 0, 0, 1, 0, 26);
+    }
+    to {
+        opacity: 3;
+        /* transform: translateY(20px); */
+         transform: none;
+    }
+}
